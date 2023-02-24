@@ -137,7 +137,7 @@ export function DrawerWithNav(props) {
         <DrawerHeader
           sx={{
             justifyContent: 'flex-start',
-            background: 'gray',
+            background: '#ada499',
           }}
         >
           <IconButton onClick={handleDrawerClose}>
@@ -248,6 +248,7 @@ export function DrawerWithNav(props) {
             width: open ? 'calc(100% - 48px)' : '100%',
           },
         })}
+        className='headerTopAll'
       >
         <Toolbar>
           <IconButton
