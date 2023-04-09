@@ -78,16 +78,6 @@ export default function Login() {
             </p>
           </div>
         </Box>
-        {/* <Box width='100%' mt={0.5}>
-          <div className='google-btn' style={{backgroundColor: "#03060a"}} role={'button'} onClick={(e) => handleSignIn(e, 'github')}>
-            <div className='google-icon-wrapper'>
-              <img className='google-icon' src='https://github.com/fluidicon.png' alt='Github' />
-            </div>
-            <p className='btn-text'>
-              <b>Login with Github</b>
-            </p>
-          </div>
-        </Box> */}
       </CardContent>
     </React.Fragment>
   );
